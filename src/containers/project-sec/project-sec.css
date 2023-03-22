@@ -1,0 +1,15 @@
+.projects h3 {
+    color: #147efb;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.projects h2 {
+    color: #2d2e32;
+    font-family: Poppins, sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
