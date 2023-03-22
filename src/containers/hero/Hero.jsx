@@ -17,9 +17,9 @@ const Hero = () => {
        Hi, I'm Sujit Memane. A passionate Front-end React Developer based in Pune, India. 📍
        </p>
        <span>
-        <a href="#" ><AiFillTwitterCircle></AiFillTwitterCircle></a>
-         <a href="#" ><AiFillLinkedin></AiFillLinkedin></a>
-          <a href="#" ><AiFillGithub></AiFillGithub></a>
+        <a href="https://twitter.com/iAmSujitMemane" ><AiFillTwitterCircle></AiFillTwitterCircle></a>
+         <a href="https://www.linkedin.com/in/sujit-memane-4704b01b0/" ><AiFillLinkedin></AiFillLinkedin></a>
+          <a href="https://github.com/sujitmemane" ><AiFillGithub></AiFillGithub></a>
        </span>
        </div>
        <div className='hero-image vibrate-1'>
