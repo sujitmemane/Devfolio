@@ -2,7 +2,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin:2em 0;
+    margin:4em 0;
 }
 .update{
     flex-direction: row-reverse;
