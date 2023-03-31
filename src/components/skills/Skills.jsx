@@ -4,6 +4,7 @@ import css from '../../assets/css.svg'
 import js from '../../assets/js.svg'
 import react from '../../assets/react.svg'
 import tailwind from '../../assets/tailwind.svg'
+import next from '../../assets/next-js.svg'
 import './skills.css'
 const Skills = () => {
   return (
@@ -28,6 +29,9 @@ const Skills = () => {
                     </div>
                     <div className='circle'> 
                         <img src={tailwind}  title='Tailwind' className='skill-logo' />
+                    </div>
+                    <div className='circle'> 
+                        <img src={next}  title='Tailwind' className='skill-logo' />
                     </div>
                 </div>
             </div>
