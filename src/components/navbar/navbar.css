@@ -1,73 +1,71 @@
-.myPortfolio__navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
-    font-size: 2rem;
-    width: 100%;
-    position: fixed;
-    top:0;
-    background: #ffffff;
+.myPortfolio__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  font-size: 2rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #ffffff;
 }
-.myPortfolio__navbar-title{
-    margin: 1em 2em;
+.myPortfolio__navbar-title {
+  margin: 1em 2em;
 }
-.myPortfolio__navbar-title h3{
-        color: #2d2e32;
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 2.3rem;
-
-        
+.myPortfolio__navbar-title h3 {
+  color: #2d2e32;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 2.3rem;
 }
-.myPortfolio__navbar-links{
-    display: flex;
-    margin: 0 1em;
-    
+.myPortfolio__navbar-links {
+  display: flex;
+  margin: 0 1em;
 }
 
-.myPortfolio__navbar-links-link{
-    margin:1em;
+.myPortfolio__navbar-links-link {
+  margin: 1em;
 }
-.myPortfolio__navbar-links-link a{
-color: #2d2e32;
-    font-weight: 500;
-    text-decoration: none;
-    transition: all .23s;
-
-
-
+.myPortfolio__navbar-links-link a {
+  color: #2d2e32;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.23s;
 }
-.myPortfolio__navbar-links-link a:hover{
-        color: #147efb;
+.myPortfolio__navbar-links-link a:hover {
+  color: #147efb;
 }
 
-.myPortfolio__navbar-menu{
+.myPortfolio__navbar-menu {
+  display: none;
+  margin: 0 2em;
+}
+.myPortfolio__navbar-menu_links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  background: white;
+}
+
+@media screen and (max-width: 900px) {
+  .myPortfolio__navbar-links {
     display: none;
-    margin: 0 2em;
-}
-.myPortfolio__navbar-menu_links{
-    display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        flex-direction: column;
-        text-align: end; 
-        padding: 2rem;
-        position: absolute;
-        right: 0;
-        top: 40px;
-        margin-top: 1rem;
-        min-width: 210px;
-        border-radius: 5px;
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-        z-index: 1000;
-        background: white;
-}
-
-@media screen and (max-width:900px){
-    .myPortfolio__navbar-links{
-        display: none;
-    }
-    .myPortfolio__navbar-menu{
-        display: block;}
+  }
+  .myPortfolio__navbar-menu {
+    display: block;
+  }
+  .myPortfolio__navbar-title h3 {
+    font-size: 2rem;
+  }
 }
