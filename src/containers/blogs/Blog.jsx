@@ -8,19 +8,19 @@ import BlogElement from "../../components/blog-element/BlogElement";
 const blogs = [
   {
     img: secondBlog,
-    date: "12 October 2021",
+    date: "10 Jan 2023",
     heading: "Mastering Sets in JavaScript",
     link: "https://sujitmemane.hashnode.dev/mastering-sets-in-javascript",
   },
   {
     img: thirdBlog,
-    date: "2 December 2022",
+    date: "7 Jan 2023",
     heading: "Mastering the Rest and Spread Operators in JavaScript ",
     link: "https://sujitmemane.hashnode.dev/mastering-the-rest-and-spread-operators-in-javascript",
   },
   {
     img: fourthBlog,
-    date: "2 November 2020",
+    date: "15 Jan 2023",
     heading: "Variables and Scopes in Javascript ",
     link: "https://sujitmemane.hashnode.dev/variables-and-scopes-in-javascript",
   },
