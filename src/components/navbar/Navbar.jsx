@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className="myPortfolio__navbar">
       <div className="myPortfolio__navbar-title">
-        <h3>&lt;sujitmemane / &gt;</h3>
+        <h3>&lt; sujitmemane /&gt;</h3>
       </div>
       <div className="myPortfolio__navbar-links">
         <p className="myPortfolio__navbar-links-link">
