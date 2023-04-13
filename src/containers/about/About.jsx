@@ -1,27 +1,38 @@
-import React from 'react'
-import './about.css'
-import about from '../../assets/about.avif'
+import React from "react";
+import "./about.css";
+import about from "../../assets/about.avif";
 const About = () => {
   return (
-    <section className='myPortfolio__about special' id="about">
-        <div className='container'>
-            <div className='about-container'>
-                <div className='about-image'>
-                <img src={about} alt='A Teen is Coding on Laptop' className='about-img' />
-                </div>
-                <div className='about-text'>
-                <h3>ABOUT ME</h3>
-                <h2>A dedicated Front-end Developer
-                 based in Pune,India 📍</h2>
-                <p>
-                    I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React, Tailwind, and Bootstrap. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in collaborating with cross-functional teams to produce outstanding web applications.
-                </p>
-                </div>
-            </div>
+    <section className="myPortfolio__about special" id="about">
+      <div className="container">
+        <div className="about-container">
+          <div className="about-image">
+            <img
+              src={about}
+              alt="A Teen is Coding on Laptop"
+              className="about-img"
+            />
+          </div>
+          <div className="about-text">
+            <h3>ABOUT ME</h3>
+            <h2>An ardent front-end developer domiciled in Pune, India.📍</h2>
+            <p>
+              My proficiencies encompass a wide-ranging and comprehensive set of
+              skills in HTML, CSS, JavaScript, React, Redux, Next.js, Tailwind,
+              and Bootstrap technologies. I possess exceptional skills in
+              designing and maintaining responsive websites that provide a
+              seamless user experience. I specialize in creating dynamic and
+              engaging user interfaces by producing clean and optimized code
+              while leveraging state-of-the-art development tools and
+              techniques.I am a collaborative team player who excels in working
+              alongside cross-functional teams to deliver exceptional web
+              applications.
+            </p>
+          </div>
         </div>
-      
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;
