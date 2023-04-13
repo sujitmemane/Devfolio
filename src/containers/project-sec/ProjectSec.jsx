@@ -37,7 +37,7 @@ const ProjectSec = () => {
       <div className="container">
         <div className="projects">
           <h3>PORTFOLIO</h3>
-          <h2>Each project is a unique piece of development 🧩</h2>
+          <h2>Each project is an exclusive development endeavor 🧩</h2>
           <div className="all-projects">{project}</div>
         </div>
       </div>
