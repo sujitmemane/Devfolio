@@ -8,12 +8,12 @@ const projectsArray = [
   {
     id: Math.random().toString(),
     image: img1,
-    heading: "Food Order App",
+    heading: "Food Order Web App",
     description:
-      "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-    tech: ["React ⚛️", "CSS"],
-    demo: "",
-    source: "",
+      "Order food online with ease through our food order web app. Browse through a variety of options and enjoy delicious meals in just a few clicks. Convenient and hassle-free!",
+    tech: ["React ⚛️", "CSS 🎨", "Firebase 🔥"],
+    demo: "https://foodr-food-order-app.vercel.app/",
+    source: "https://github.com/sujitmemane/Foodr_Food_Order_App",
     change: false,
   },
 ];
