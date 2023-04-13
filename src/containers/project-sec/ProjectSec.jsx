@@ -40,6 +40,7 @@ const ProjectSec = () => {
           <h2>Each project is an exclusive development endeavor 🧩</h2>
           <div className="all-projects">{project}</div>
         </div>
+        <p className="info">More Coming ...</p>
       </div>
     </section>
   );

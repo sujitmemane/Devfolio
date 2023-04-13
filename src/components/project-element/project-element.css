@@ -80,4 +80,11 @@ img {
     width: 100%;
     margin-top: 10px;
   }
+
+  .btn-tech {
+    padding: 0.8rem 1rem;
+    margin: 1em 0em;
+    margin-right: 1em;
+    font-size: 1.5rem !important;
+  }
 }
