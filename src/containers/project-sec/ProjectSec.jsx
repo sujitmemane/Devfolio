@@ -1,7 +1,7 @@
 import React from "react";
 import "./project-sec.css";
 import img1 from "../../assets/pro1.gif";
-import img2 from "../../assets/pro2.webp";
+import img2 from "../../assets/pro2.gif";
 import img3 from "../../assets/pro3.webp";
 import ProjectElement from "../../components/project-element/ProjectElement";
 const projectsArray = [
@@ -15,6 +15,17 @@ const projectsArray = [
     demo: "https://foodr-food-order-app.vercel.app/",
     source: "https://github.com/sujitmemane/Foodr_Food_Order_App",
     change: false,
+  },
+  {
+    id: Math.random().toString(),
+    image: img2,
+    heading: "GymAholic Gym App",
+    description:
+      "GymAholic 🏋️‍♂️ - the ultimate web app to help you find the perfect exercises to maintain your body or figure! 💪",
+    tech: ["React ⚛️", "Taiwlind🎨", "Exercise DB API 🔥"],
+    demo: "https://gym-aholic.vercel.app/",
+    source: "https://github.com/sujitmemane/Gym_Aholic",
+    change: true,
   },
 ];
 const ProjectSec = () => {
