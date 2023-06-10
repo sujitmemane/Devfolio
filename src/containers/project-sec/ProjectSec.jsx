@@ -3,7 +3,7 @@ import "./project-sec.css";
 import img1 from "../../assets/pro1.gif";
 import img2 from "../../assets/pro2.gif";
 import img3 from "../../assets/pro3.gif";
-import img4 from "../../assets/pro4.gif";
+import img4 from "../../assets/pro4.png";
 import ProjectElement from "../../components/project-element/ProjectElement";
 const projectsArray = [
   {
