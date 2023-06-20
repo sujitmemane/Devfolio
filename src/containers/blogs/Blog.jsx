@@ -26,9 +26,10 @@ const blogs = [
   },
 ];
 const Blog = () => {
-  const blogElements = blogs.map((blog) => {
+  const blogElements = blogs.map((blog, index) => {
     return (
       <BlogElement
+        key={index}
         img={blog.img}
         heading={blog.heading}
         date={blog.date}

@@ -22,9 +22,10 @@ const contacts = [
   },
 ];
 const Contact = () => {
-  const contactElements = contacts.map((contact) => {
+  const contactElements = contacts.map((contact, index) => {
     return (
       <ContactElement
+        key={index}
         logo={contact.logo}
         intro={contact.intro}
         desc={contact.desc}

@@ -1,14 +1,14 @@
 import React from "react";
 import "./project-sec.css";
-import img1 from "../../assets/pro1.gif";
-import img2 from "../../assets/pro2.gif";
-import img3 from "../../assets/pro3.gif";
+import img1 from "../../assets/pro1.png";
+import img2 from "../../assets/pro2.png";
+import img3 from "../../assets/pro3.png";
 import img4 from "../../assets/pro4.png";
 import ProjectElement from "../../components/project-element/ProjectElement";
 const projectsArray = [
   {
-    id: Math.random().toString(),
-    image: img3,
+    id: "1",
+    image: img1,
     heading: "Bummer E-Commerce App",
     description:
       "The Bummer E-commerce app offers a cart system 🛒, a sleek user interface ✨, and a secure payment gateway 🔒 for a seamless shopping experience.",
@@ -18,8 +18,8 @@ const projectsArray = [
     change: false,
   },
   {
-    id: Math.random().toString(),
-    image: img1,
+    id: "2",
+    image: img2,
     heading: "Food Order Web App",
     description:
       "Order food online with ease through our food order web app. Browse through a variety of options and enjoy delicious meals in just a few clicks. Convenient and hassle-free!",
@@ -29,8 +29,8 @@ const projectsArray = [
     change: true,
   },
   {
-    id: Math.random().toString(),
-    image: img2,
+    id: "3",
+    image: img3,
     heading: "GymAholic Gym App",
     description:
       "GymAholic 🏋️‍♂️ - the ultimate web app to help you find the perfect exercises to maintain your body or figure! 💪",
@@ -41,7 +41,7 @@ const projectsArray = [
   },
 
   {
-    id: Math.random().toString(),
+    id: "4",
     image: img4,
     heading: "Youtube Clone",
     description:
@@ -75,7 +75,6 @@ const ProjectSec = () => {
           <h2>Each project is an exclusive development endeavor 🧩</h2>
           <div className="all-projects">{project}</div>
         </div>
-        <p className="info">More Coming ...</p>
       </div>
     </section>
   );

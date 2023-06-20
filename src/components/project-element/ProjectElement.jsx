@@ -3,10 +3,14 @@ import { RiGithubFill } from "react-icons/ri";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import "./project-element.css";
 const ProjectElement = (props) => {
-  const stack = props.tech.map((lang) => {
-    return <p className="btn-tech">{lang}</p>;
+  const stack = props.tech.map((lang, index) => {
+    return (
+      <p className="btn-tech" key={index}>
+        {lang}
+      </p>
+    );
   });
-  console.log(props.change);
+ 
   return (
     <div
       className={`${"project-element"} ${
