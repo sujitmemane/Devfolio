@@ -5,16 +5,17 @@
 
 .hero__main {
   display: flex;
+  
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding: 1em 0.4em;
-  max-width: 960px;
+  max-width: 1260px;
 }
 .hero-text {
   width: 55%;
 }
 .hero-image {
-  width: 40%;
+  width: 30%;
   display: flex;
 
   align-items: center;
