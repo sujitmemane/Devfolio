@@ -14,12 +14,7 @@ const contacts = [
     logo: <MdEmail></MdEmail>,
     intro: "Mail",
     desc: "officialsujitmemane@gmail.com",
-  },
-  {
-    logo: <BsFillTelephoneFill></BsFillTelephoneFill>,
-    intro: "Phone",
-    desc: "+91 9322400390",
-  },
+  }
 ];
 const Contact = () => {
   const contactElements = contacts.map((contact, index) => {
